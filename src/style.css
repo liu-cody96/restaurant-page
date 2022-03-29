@@ -1,0 +1,90 @@
+
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url('boba.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  height: 50px;
+}
+
+.cute-boba {
+  position: absolute;
+  bottom: 562px;
+  right: 295px;
+  z-index: 1;
+  transform: rotate(10deg);
+  max-height: 56px;
+  max-width: 48px;
+}
+
+.cute-boba img {
+  max-height: 52px;
+}
+
+.content {
+    position: relative;
+    max-width: 810px;
+    padding: 55px;
+    margin: 0 auto;
+}
+
+.tab-navbar {
+    width: 100%;
+}
+
+.tab-link {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    width: 33.333%;
+  }
+
+  .tab-link:hover {
+    background-color: #777;
+  }
+
+  /* Style the tab content (and add height:100% for full page content) */
+  .tab-content {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+  .title-container {
+    grid-template-columns: 155px 155px;
+  }
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: rgba(245, 245, 245, 0.7)
+}
+
+
+.dynastea-description {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: rgba(245, 245, 245, 0.7);
+  padding-bottom: 50%;
+}
